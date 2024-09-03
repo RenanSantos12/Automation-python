@@ -7,8 +7,9 @@ position = pyautogui.position()
 print(position)
 
 pyautogui.alert('não use nada no seu computador')
-pyautogui.PAUSE = 0.5
+pyautogui.PAUSE = 1
 pyautogui.press('winleft')
+
 pyautogui.write('crome')
 pyautogui.press('enter')
 
@@ -29,9 +30,9 @@ pyautogui.press('enter')
 
 #Point(x=283, y=325)
 
-pyautogui.moveTo(283, 325)
+'''pyautogui.moveTo(283, 325)
 pyautogui.mouseDown(button='right')
 time.sleep(1)
 pyautogui.write('Entrei nesse conversa para mandar oi')
 time.sleep(2)
-pyautogui.press('enter')
+pyautogui.press('enter')'''
