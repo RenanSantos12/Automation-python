@@ -30,6 +30,7 @@ pyautogui.press('enter')
 
 #Point(x=283, y=325)
 
+
 '''pyautogui.moveTo(283, 325)
 pyautogui.mouseDown(button='right')
 time.sleep(1)
