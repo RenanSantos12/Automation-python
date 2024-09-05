@@ -7,7 +7,7 @@ position = pyautogui.position()
 print(position)
 
 pyautogui.alert('não use nada no seu computador')
-pyautogui.PAUSE = 1
+pyautogui.PAUSE = 2
 pyautogui.press('winleft')
 
 pyautogui.write('crome')
