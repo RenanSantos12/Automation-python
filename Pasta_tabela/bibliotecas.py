@@ -6,8 +6,6 @@ import time
 Servico = Service(ChromeDriverManager().install())
 navegador = webdriver.Chrome(service=Servico)
 
-
-
 navegador.get("https://sociotorcedor.com.br/")
 time.sleep(60)
 
